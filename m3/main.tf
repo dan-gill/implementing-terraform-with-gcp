@@ -3,7 +3,7 @@ resource "google_cloud_run_service" "default" {
   location                   = "us-east1"
   autogenerate_revision_name = true
 
-  # Delete this part for demo
+  # # Delete this part for demo
   depends_on = [
     google_project_service.gcp_services
   ]
@@ -29,6 +29,6 @@ resource "random_pet" "suffix" {
 
 # Delete this part for demo
 resource "google_project_service" "gcp_services" {
-  project = "carved-rock-prod"
+  project = "carved-rock-prod-468919"
   service = "run.googleapis.com"
 }

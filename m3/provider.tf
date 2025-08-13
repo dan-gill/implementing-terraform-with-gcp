@@ -7,7 +7,7 @@ terraform {
 }
 
 provider "google" {
-  project = "carved-rock-prod"
+  project = "carved-rock-prod-468919"
   region  = "us-east1"
   zone    = "us-east1-b"
 }
